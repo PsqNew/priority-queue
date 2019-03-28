@@ -87,12 +87,7 @@ class MaxHeap {
     }
 
     shiftNodeDown(node) {
-        const chooseChild = node => {
-            if (node.left && node.right) {
-                return node.left.priority > node.right.priority ?
-                    node.left : node.right;
-            } else return node.left;
-        }
+
     }
 }
 
